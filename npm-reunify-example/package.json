@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "name": "dropstack-npm-reunify-example",
+  "version": "1.0.0",
+  "description": "A dropstack reunify example",
+  "dependencies": {
+    "reunify": "latest"
+  },
+  "scripts": {
+    "start": "reunify start --port 80"
+  }
+}
