@@ -1,0 +1,13 @@
+[{
+  "id": "first-post",
+  "rev": "1",
+  "title": "First Post Title"
+}, {
+  "id": "second-post",
+  "rev": "1",
+  "title": "Second Post Title"
+}, {
+  "id": "third-post",
+  "rev": "1",
+  "title": "Third Post Title"
+}]

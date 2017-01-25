@@ -1,0 +1,9 @@
+type Article {
+  id: ID!
+  rev: String
+  title: String
+}
+
+type Query {
+  search(term: String!): [Article]
+}

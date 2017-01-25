@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "name": "npm-graphql-pouchdb-example",
+  "version": "1.0.0",
+  "description": "DROPSTACK GraphQL-Pouch example",
+  "scripts": {
+    "dev": "nodemon server",
+    "start": "node server"
+  },
+  "author": "DROPSTACK <go@dropstack.run>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cors": "^2.7.1",
+    "express": "^4.14.0",
+    "express-graphql": "^0.5.3",
+    "graphql-pouch": "^1.1.10",
+    "morgan": "^1.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
