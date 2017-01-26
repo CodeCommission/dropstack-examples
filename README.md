@@ -14,4 +14,5 @@ npm i -g dropstack
 * [NPM + Express](https://arimxacl.dropstack.run)
 * [NPM + PouchDB](https://hjuhiwtk.dropstack.run/_utils)
 * [NPM + Reunify](https://etlysaqf.dropstack.run)
+* [NPM + Lambda-Pouch](https://dcxvodhm.dropstack.run/example)
 * [NPM + GraphQL-Pouch](https://yvwuzztp.dropstack.run/graphql)
