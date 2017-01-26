@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "name": "npm-lambda-pouch-example",
+  "version": "1.0.0",
+  "description": "DROPSTACK Lambda-Pouch example",
+  "scripts": {
+    "dev": "nodemon lambda-pouch",
+    "start": "lambda-pouch --function example.js && lambda-pouch"
+  },
+  "author": "DROPSTACK <go@dropstack.run>",
+  "license": "MIT",
+  "dependencies": {
+    "lambda-pouch": "^1.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
