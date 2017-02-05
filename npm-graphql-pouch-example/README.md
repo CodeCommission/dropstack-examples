@@ -1,5 +1,7 @@
 # DROPSTACK GraphQL-Pouch example
 
+[Live](https://yvwuzztp.dropstack.run/graphql)
+
 ## Run
 
 ```bash
@@ -12,6 +14,13 @@ $ npm start
 ```bash
 $ npm install
 $ npm run dev
+```
+
+## Deploy to [https://dropstack.run](https://dropstack.run)
+
+```
+npm i -g dropstack-cli
+dropstack
 ```
 
 ## GraphQL query
