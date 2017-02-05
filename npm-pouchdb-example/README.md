@@ -1,9 +1,10 @@
-# dropstack PouchDB / NPM example
+# DROPSTACK PouchDB example
 
-## Deploy via dropstack
+## Deploy to [https://dropstack.run](https://dropstack.run)
 
 ```bash
-dropstack deploy --variables SERVICE_PORT=80
+npm i -g dropstack-cli
+dropstack
 ```
 
 ## PouchDB

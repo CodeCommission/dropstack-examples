@@ -18,3 +18,4 @@ npm i -g dropstack
 * [NPM + Reunify](https://etlysaqf.dropstack.run)
 * [NPM + Lambda-Pouch](https://dcxvodhm.dropstack.run/example)
 * [NPM + GraphQL-Pouch](https://yvwuzztp.dropstack.run/graphql)
+* [NPM + JSON-Server](https://bqujoimy.dropstack.run)
