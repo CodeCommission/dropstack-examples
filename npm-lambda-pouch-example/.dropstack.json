@@ -1,0 +1,8 @@
+{
+  "variables": [],
+  "username": "go@dropstack.run",
+  "serviceName": "dcxvodhm",
+  "serviceUrl": "https://dcxvodhm.dropstack.run",
+  "serviceAlias": "npm-lambda-pouch-example",
+  "serviceType": "npm"
+}

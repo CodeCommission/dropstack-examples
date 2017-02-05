@@ -13,7 +13,7 @@ namespace DotNetKestrelExample
             new WebHostBuilder()
                 .UseKestrel()
                 .UseUrls(String.IsNullOrEmpty(SERVICE_PORT) ? "http://0.0.0.0:5000" : $"http://0.0.0.0:{SERVICE_PORT}")
-                .Configure(a => a.Run(c => c.Response.WriteAsync("Hello World!")))
+                .Configure(a => a.Run(c => c.Response.WriteAsync("(GET/TEXT) DROPSTACK C# + Kestrel Example")))
                 .Build()
                 .Run();
         }

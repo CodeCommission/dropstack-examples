@@ -2,12 +2,12 @@
   "name": "dropstack-npm-example",
   "private": true,
   "version": "1.0.0",
-  "description": "dropstack NPM example",
+  "description": "DROPSTACK NPM example",
   "main": "server.js",
   "scripts": {
     "start": "node server"
   },
-  "author": "dropstack <go@dropstack.run>",
+  "author": "DROPSTACK <go@dropstack.run>",
   "license": "MIT",
   "dependencies": {
     "express": "^4.14.0"

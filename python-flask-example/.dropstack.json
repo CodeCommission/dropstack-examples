@@ -1,0 +1,8 @@
+{
+  "variables": [],
+  "username": "go@dropstack.run",
+  "serviceName": "lvycetrv",
+  "serviceUrl": "https://lvycetrv.dropstack.run",
+  "serviceAlias": "python-flask-example",
+  "serviceType": "docker"
+}
