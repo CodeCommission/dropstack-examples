@@ -4,4 +4,4 @@ ADD . .
 EXPOSE 80
 RUN dotnet restore
 RUN dotnet build
-ENTRYPOINT dotnet run
+ENTRYPOINT dotnet run --ip 0.0.0.0 --port 80

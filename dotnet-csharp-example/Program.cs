@@ -12,7 +12,7 @@ namespace DotNetKestrelExample
             var SERVICE_PORT = Environment.GetEnvironmentVariable("SERVICE_PORT");
             new WebHostBuilder()
                 .UseKestrel()
-                .UseUrls(String.IsNullOrEmpty(SERVICE_PORT) ? "http://0.0.0.0:8080" : $"http://0.0.0.0:{SERVICE_PORT}")
+                .UseUrls(String.IsNullOrEmpty(SERVICE_PORT) ? "http://0.0.0.0:5000" : $"http://0.0.0.0:{SERVICE_PORT}")
                 .Configure(a => a.Run(c => c.Response.WriteAsync("Hello World!")))
                 .Build()
                 .Run();
