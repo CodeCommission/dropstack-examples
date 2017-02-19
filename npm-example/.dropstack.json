@@ -1,5 +1,6 @@
 {
   "variables": [],
+  "alias": "npm-example.services.dropstack.run",
   "name": "urcbyrfw",
   "serviceUrl": "urcbyrfw.services.dropstack.run",
   "type": "npm"

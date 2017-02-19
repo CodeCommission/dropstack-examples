@@ -1,5 +1,6 @@
 {
   "variables": [],
+  "alias": "docker-example.services.dropstack.run",
   "name": "waedjrfh",
   "serviceUrl": "waedjrfh.services.dropstack.run",
   "type": "docker"

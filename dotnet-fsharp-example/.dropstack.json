@@ -1,5 +1,6 @@
 {
   "variables": [],
+  "alias": "fsharp-example.services.dropstack.run",
   "name": "whwgikhc",
   "serviceUrl": "whwgikhc.services.dropstack.run",
   "type": "docker"

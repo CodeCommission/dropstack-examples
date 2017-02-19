@@ -2,6 +2,7 @@
   "variables": [
     "SERVICE_PORT=80"
   ],
+  "alias": "lambda-pouch-example.services.dropstack.run",
   "name": "momnhgvw",
   "serviceUrl": "momnhgvw.services.dropstack.run",
   "type": "npm"

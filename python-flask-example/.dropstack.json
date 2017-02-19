@@ -1,5 +1,6 @@
 {
   "variables": [],
+  "alias": "python-example.services.dropstack.run",
   "name": "wjdqtkuz",
   "serviceUrl": "wjdqtkuz.services.dropstack.run",
   "type": "pip"
