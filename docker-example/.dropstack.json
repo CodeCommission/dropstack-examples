@@ -1,8 +1,6 @@
 {
   "variables": [],
-  "username": "go@dropstack.run",
-  "serviceName": "slhdnkwu",
-  "serviceUrl": "https://slhdnkwu.dropstack.run",
-  "serviceAlias": "docker-example",
-  "serviceType": "docker"
+  "name": "waedjrfh",
+  "serviceUrl": "waedjrfh.services.dropstack.run",
+  "type": "docker"
 }

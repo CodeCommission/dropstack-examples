@@ -1,8 +1,8 @@
 {
   "variables": [],
-  "username": "go@dropstack.run",
-  "serviceName": "byjcmnrm",
-  "serviceUrl": "https://byjcmnrm.dropstack.run",
-  "serviceAlias": "html-example",
-  "serviceType": "web"
+  "metadata": {},
+  "id": "go@dropstack.run",
+  "name": "ngibhshm",
+  "serviceUrl": "ngibhshm.services.dropstack.run",
+  "type": "web"
 }

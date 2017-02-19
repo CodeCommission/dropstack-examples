@@ -1,8 +1,6 @@
 {
   "variables": [],
-  "username": "go@dropstack.run",
-  "serviceName": "arimxacl",
-  "serviceUrl": "https://arimxacl.dropstack.run",
-  "serviceAlias": "npm-example",
-  "serviceType": "npm"
+  "name": "urcbyrfw",
+  "serviceUrl": "urcbyrfw.services.dropstack.run",
+  "type": "npm"
 }

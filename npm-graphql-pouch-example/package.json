@@ -5,13 +5,15 @@
   "description": "DROPSTACK GraphQL-Pouch example",
   "scripts": {
     "dev": "nodemon server",
-    "start": "node server"
+    "start": "node server",
+    "deploy": "dropstack deploy --login  -v SERVICE_PORT=80"
   },
   "author": "DROPSTACK <go@dropstack.run>",
   "license": "MIT",
   "dependencies": {
     "body-parser": "^1.15.2",
     "cors": "^2.7.1",
+    "dropstack-cli": "^1.3.2",
     "express": "^4.14.1",
     "express-graphql": "^0.5.3",
     "graphql-pouch": "^1.1.10",
