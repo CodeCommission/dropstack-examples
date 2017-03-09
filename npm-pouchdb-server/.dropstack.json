@@ -1,0 +1,9 @@
+{
+  "variables": [
+    "SERVICE_PORT=80"
+  ],
+  "alias": "pouchdb-server-example.services.dropstack.run",
+  "name": "oqxuukwd",
+  "serviceUrl": "oqxuukwd.services.dropstack.run",
+  "type": "npm"
+}
