@@ -1,9 +1,0 @@
-{
-  "variables": [
-    "SERVICE_PORT=80"
-  ],
-  "alias": "pouchdb-example.services.dropstack.run",
-  "name": "ripkvufc",
-  "serviceUrl": "ripkvufc.services.dropstack.run",
-  "type": "npm"
-}

@@ -16,11 +16,10 @@ $ npm install
 $ npm run dev
 ```
 
-## Deploy to [https://dropstack.run](https://dropstack.run)
+## Deploy via [https://dropstack.run](https://dropstack.run)
 
 ```
-npm i -g dropstack-cli
-dropstack
+dropstack deploy
 ```
 
 ## GraphQL query

@@ -14,3 +14,9 @@ npm start
 ```bash
 npm run start -- --function example.js
 ```
+
+## Deploy via [https://dropstack.run](https://dropstack.run)
+
+```
+dropstack deploy
+```

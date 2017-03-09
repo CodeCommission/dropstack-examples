@@ -1,7 +1,20 @@
 # DROPSTACK Examples
 
+## Deploy via [https://dropstack.run](https://dropstack.run)
+
 ```bash
-npm i -g dropstack
+npm i -g dropstack-cli
+```
+
+__Sign In__
+```bash
+dropstack login http://...
+```
+
+__Deploy__
+
+```bash
+dropstack deploy
 ```
 
 ## Deployed examples
@@ -14,8 +27,7 @@ npm i -g dropstack
 * [Docker + F# + Suave](http://whwgikhc.services.dropstack.run)
 * [Docker + Python/Flask](http://wjdqtkuz.services.dropstack.run)
 * [Docker + Go](http://bwrbytxq.services.dropstack.run)
-* [NPM + PouchDB](http://ripkvufc.services.dropstack.run/_utils)
 * [NPM + Reunify](http://byctvaxf.services.dropstack.run)
 * [NPM + Lambda-Pouch](http://momnhgvw.services.dropstack.run/example)
 * [NPM + GraphQL-Pouch](http://isgcwogq.services.dropstack.run/graphql)
-* [NPM + JSON-Server](http://vymahwwx.services.dropstack.run)
+* [NPM + PouchDB-Server](http://oqxuukwd.services.dropstack.run/_utils)

@@ -11,10 +11,10 @@ dotnet run
 curl -s http://localhost:5000
 ```
 
-## Deploy to [https://dropstack.run](https://dropstack.run)
+## Deploy via [https://dropstack.run](https://dropstack.run)
 
 ```bash
-dropstack
+dropstack deploy
 ```
 
 ## Docker

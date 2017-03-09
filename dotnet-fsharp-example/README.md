@@ -21,10 +21,10 @@ curl -s http://localhost:5000/api | jq .
 curl -s -XPOST http://localhost:5000/api | jq .
 ```
 
-## Deploy to [https://dropstack.run](https://dropstack.run)
+## Deploy via [https://dropstack.run](https://dropstack.run)
 
 ```bash
-dropstack
+dropstack deploy
 ```
 
 ## Docker
