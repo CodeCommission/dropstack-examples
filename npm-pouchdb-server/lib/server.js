@@ -10,15 +10,14 @@ const expressPouchDB = require('express-pouchdb')(DefaultPouch, {
   configPath: 'pouchdb-config.json',
   mode: 'fullCouchDB',
 });
-const app = express();
 const databases = {};
+const app = express();
 
-app.enable('trust proxy');
 app.disable('x-powered-by');
 app.use(expressMorgan('dev'));
-app.use(expressPouchDB);
 app.use(expressCors());
-app.use(expressBodyParser.json({limit: '10mb'}));
+app.use(expressPouchDB);
+app.use(expressBodyParser.json({limit: '1mb'}));
 
 let server = undefined;
 module.exports = {
