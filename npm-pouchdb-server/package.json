@@ -11,7 +11,6 @@
     "import": "excel-couchdb-import ./test/fixtures/test.xlsx --target http://localhost:8080/test"
   },
   "dependencies": {
-    "body-parser": "^1.17.1",
     "cors": "^2.8.1",
     "express": "^4.15.2",
     "express-pouchdb": "^2.3.6",
