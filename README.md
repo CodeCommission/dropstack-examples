@@ -20,15 +20,15 @@ dropstack deploy
 
 ## Deployed examples
 
-* [Static WebSite](https://ngibhshm.services.dropstack.run)
+* [Static Web-Site](https://ngibhshm.services.dropstack.run)
 * [SPA](https://okwwqnkl.services.dropstack.run)
 * [NPM + Express](https://urcbyrfw.services.dropstack.run)
 * [NPM + Express + HTTP2/SPDY](https://http2-express.services.dropstack.run)
 * [Docker Image](https://waedjrfh.services.dropstack.run)
-* [Docker + C# + Kestrel](https://sntdqrvq.services.dropstack.run)
-* [Docker + F# + Suave](https://whwgikhc.services.dropstack.run)
-* [Docker + Python/Flask](https://wjdqtkuz.services.dropstack.run)
-* [Docker + Go](https://bwrbytxq.services.dropstack.run)
+* [C# + Kestrel](https://sntdqrvq.services.dropstack.run)
+* [F# + Suave](https://whwgikhc.services.dropstack.run)
+* [Python/Flask](https://wjdqtkuz.services.dropstack.run)
+* [Go](https://bwrbytxq.services.dropstack.run)
 * [NPM + Reunify](https://byctvaxf.services.dropstack.run)
 * [NPM + Lambda-Pouch](https://momnhgvw.services.dropstack.run/example)
 * [NPM + GraphQL-Pouch](https://isgcwogq.services.dropstack.run/graphql)

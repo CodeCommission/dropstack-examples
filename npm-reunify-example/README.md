@@ -1,6 +1,6 @@
-# DROPSTACK Reunify example
+# Reunify example
 
-[Live](http://reunify-example.services.dropstack.run)
+[Reunify Live Example](https://byctvaxf.services.dropstack.run)
 
 ## Deploy via [https://dropstack.run](https://dropstack.run)
 

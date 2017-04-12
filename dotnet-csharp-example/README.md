@@ -1,5 +1,7 @@
 # DotNet Core 1.1 (C# + Kestrel) example
 
+[Docker + C# Live Example](https://sntdqrvq.services.dropstack.run)
+
 ## Run
 
 ```bash

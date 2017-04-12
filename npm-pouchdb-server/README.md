@@ -1,6 +1,6 @@
-# DROPSTACK PouchDB-Server example
+# PouchDB-Server example
 
-[Live](http://pouchdb-server-example.services.dropstack.run/_utils)
+[PouchDB-Server Live Example](https://oqxuukwd.services.dropstack.run/_utils)
 
 ## PouchDB
 
