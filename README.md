@@ -6,12 +6,13 @@
 npm i -g dropstack-cli
 ```
 
-__Sign In__
+## Sign in
+
 ```bash
 dropstack login http://...
 ```
 
-__Deploy__
+## Deploy
 
 ```bash
 dropstack deploy
