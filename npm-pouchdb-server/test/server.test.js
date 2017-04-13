@@ -1,4 +1,4 @@
-const SERVICE_PORT = 5000;
+const SERVICE_PORT = 8000;
 const BASE_URL = `http://localhost:${SERVICE_PORT}`;
 const assert = require('assert');
 const fetch = require('node-fetch');
@@ -11,6 +11,20 @@ describe('PouchDB integration should', () => {
     return fetch(`${BASE_URL}/test`)
     .then(res => res.json())
     .then(data => {
+      console.log(data)
+      assert.ok(data);
+    });
+  });
+
+  it('create document in test database', () => {
+    return fetch(`${BASE_URL}/test/demo-doc`, {
+      method: 'PUT',
+      headers: {'content-type': 'application/json'},
+      body: JSON.stringify({value: 'demo'}),
+    })
+    .then(res => res.json())
+    .then(data => {
+      console.log(data)
       assert.ok(data);
     });
   });

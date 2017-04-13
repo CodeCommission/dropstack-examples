@@ -5,5 +5,8 @@
   "alias": "pouchdb-server-example.services.dropstack.run",
   "type": "npm",
   "name": "oqxuukwd",
-  "serviceUrl": "oqxuukwd.services.dropstack.run"
+  "serviceUrl": "oqxuukwd.services.dropstack.run",
+  "excludes": [
+    "databases/*"
+  ]
 }
