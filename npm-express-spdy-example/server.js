@@ -1,6 +1,7 @@
 const SERVICE_PORT = process.env.SERVICE_PORT || 8443
 const spdy = require('spdy')
 const express = require('express')
+const expressCors = require('cors')
 const path = require('path')
 const fs = require('fs')
 const Rx = require('rxjs')
@@ -9,6 +10,7 @@ const eventStreamSimulation = Rx.Observable.interval(1000).share();
 const app = express()
 app.disable('x-powered-by')
 app.use(express.static('statics'));
+app.use(expressCors());
 
 app.get('/resources/:id', (req, res) => res.send({message: req.params.id, $type: 'myEvent'}))
 app.get('/event-stream', (req, res) => {
