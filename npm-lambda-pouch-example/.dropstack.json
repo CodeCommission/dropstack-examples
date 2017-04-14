@@ -5,5 +5,8 @@
   "alias": "lambda-pouch-example.services.dropstack.run",
   "name": "momnhgvw",
   "serviceUrl": "momnhgvw.services.dropstack.run",
-  "type": "npm"
+  "type": "npm",
+  "exculudes": [
+    "default"
+  ]
 }
