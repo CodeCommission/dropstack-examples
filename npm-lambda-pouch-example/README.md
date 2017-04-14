@@ -4,7 +4,7 @@
 
 * [Basic output](https://momnhgvw.services.dropstack.run/example)
 * [Randomized output](https://momnhgvw.services.dropstack.run/randomize-example)
-* [Randomized failure](https://momnhgvw.services.dropstack.run/failure-example)
+* [Randomized failure with 1s latency](https://momnhgvw.services.dropstack.run/failure-example)
 
 ## Run
 
