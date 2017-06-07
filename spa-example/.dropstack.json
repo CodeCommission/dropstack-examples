@@ -1,7 +1,8 @@
 {
   "variables": [],
-  "alias": "spa-example.services.dropstack.run",
+  "instances": 1,
+  "alias": "spa-example.cloud.dropstack.run",
+  "type": "spa",
   "name": "okwwqnkl",
-  "serviceUrl": "okwwqnkl.services.dropstack.run",
-  "type": "spa"
+  "serviceUrl": "okwwqnkl.cloud.dropstack.run"
 }

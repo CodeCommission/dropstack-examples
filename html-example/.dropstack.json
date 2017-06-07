@@ -1,9 +1,8 @@
 {
   "variables": [],
-  "alias": "html-example.services.dropstack.run",
-  "name": "ngibhshm",
-  "serviceUrl": "ngibhshm.services.dropstack.run",
+  "instances": 1,
+  "alias": "html-example.cloud.dropstack.run",
   "type": "web",
-  "metadata": {},
-  "id": "go@dropstack.run"
+  "name": "ngibhshm",
+  "serviceUrl": "ngibhshm.cloud.dropstack.run"
 }

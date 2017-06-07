@@ -2,10 +2,11 @@
   "variables": [
     "SERVICE_PORT=80"
   ],
-  "alias": "pouchdb-server-example.services.dropstack.run",
+  "instances": 1,
+  "alias": "pouchdb-server-example.cloud.dropstack.run",
   "type": "npm",
   "name": "oqxuukwd",
-  "serviceUrl": "oqxuukwd.services.dropstack.run",
+  "serviceUrl": "oqxuukwd.cloud.dropstack.run",
   "excludes": [
     "databases/*"
   ]

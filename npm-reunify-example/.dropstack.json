@@ -1,7 +1,8 @@
 {
   "variables": [],
-  "alias": "reunify-example.services.dropstack.run",
+  "instances": 1,
+  "alias": "reunify-example.cloud.dropstack.run",
+  "type": "npm",
   "name": "byctvaxf",
-  "serviceUrl": "byctvaxf.services.dropstack.run",
-  "type": "npm"
+  "serviceUrl": "byctvaxf.cloud.dropstack.run"
 }

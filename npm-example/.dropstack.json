@@ -1,7 +1,8 @@
 {
   "variables": [],
-  "alias": "npm-example.services.dropstack.run",
+  "instances": 1,
+  "alias": "npm-example.cloud.dropstack.run",
+  "type": "npm",
   "name": "urcbyrfw",
-  "serviceUrl": "urcbyrfw.services.dropstack.run",
-  "type": "npm"
+  "serviceUrl": "urcbyrfw.cloud.dropstack.run"
 }
