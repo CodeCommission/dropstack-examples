@@ -1,6 +1,6 @@
 # Mono-Solution (C# + Nancy) example
 
-[Mono-Solution C# + Nancy Live Example](https://qkvwwiko.cloud.dropstack.run)
+[Mono-Solution C# + Nancy Live Example](https://qkvwwiko.cloud.dropstack.run/add)
 
 ## Deploy via [https://dropstack.run](https://dropstack.run)
 
