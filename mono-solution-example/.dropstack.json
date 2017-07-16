@@ -1,6 +1,7 @@
 {
   "variables": [],
   "instances": 1,
+  "alias": "mono-csharp-nancy-example.cloud.dropstack.run",
   "type": "mono",
   "name": "qkvwwiko",
   "serviceUrl": "qkvwwiko.cloud.dropstack.run"

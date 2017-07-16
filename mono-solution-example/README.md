@@ -1,4 +1,4 @@
-# C# + Nancy Mono-Solution example
+# Mono-Solution (C# + Nancy) example
 
 [Mono-Solution C# + Nancy Live Example](https://qkvwwiko.cloud.dropstack.run)
 
