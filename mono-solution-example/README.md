@@ -10,13 +10,13 @@ dropstack deploy
 
 ## Local execution
 
-## Build
+### Build
 
 ```bash
 ./build.sh
 ```
 
-## Run
+### Run
 
 ```bash
 ./dev.sh
@@ -25,3 +25,7 @@ dropstack deploy
 ```bash
 curl -s http://localhost:1234/add
 ```
+
+## Credits & more ...
+
+This example is a copy of [servicehost](https://github.com/ralfw/servicehost). Feel free to build your own "easy-going" HTTP servicehost! &#9829; Thank you [ralfw](https://github.com/ralfw) for contributing.
