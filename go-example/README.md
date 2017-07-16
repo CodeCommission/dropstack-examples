@@ -1,6 +1,6 @@
 # Go example
 
-[Docker + Go Live Example](https://bwrbytxq.services.dropstack.run)
+[Docker + Go Live Example](https://bwrbytxq.cloud.dropstack.run)
 
 ## Development
 

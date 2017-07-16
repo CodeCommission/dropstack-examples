@@ -1,6 +1,6 @@
 # DotNet Core 1.1 (C# + Kestrel) example
 
-[Docker + C# Live Example](https://sntdqrvq.services.dropstack.run)
+[Docker + C# Live Example](https://sntdqrvq.cloud.dropstack.run)
 
 ## Run
 

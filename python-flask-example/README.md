@@ -1,3 +1,3 @@
 # Python + Flask example
 
-[Python + Flask Live Example](https://wjdqtkuz.services.dropstack.run)
+[Python + Flask Live Example](https://wjdqtkuz.cloud.dropstack.run)

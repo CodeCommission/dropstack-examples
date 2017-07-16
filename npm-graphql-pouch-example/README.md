@@ -1,6 +1,6 @@
 # GraphQL-Pouch example
 
-[GraphQL-Pouch Live Example](https://isgcwogq.services.dropstack.run/graphql)
+[GraphQL-Pouch Live Example](https://isgcwogq.cloud.dropstack.run/graphql)
 
 ## Run
 
