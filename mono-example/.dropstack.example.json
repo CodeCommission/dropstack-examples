@@ -1,9 +1,8 @@
 {
-  "variables": "",
+  "variables": "start=./start.sh,build=./build.sh",
   "instances": 1,
   "alias": "mono-simple-example.cloud.dropstack.run",
   "type": "mono",
-  "aliveEndpoint": "",
   "name": "xpuajnpv",
   "serviceUrl": "xpuajnpv.cloud.dropstack.run"
 }
