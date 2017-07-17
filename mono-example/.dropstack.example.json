@@ -1,8 +1,9 @@
 {
-  "variables": [],
+  "variables": "",
   "instances": 1,
-  "alias": "mono-solution-example.cloud.dropstack.run",
+  "alias": "mono-simple-example.cloud.dropstack.run",
   "type": "mono",
-  "name": "oefhppfj",
-  "serviceUrl": "oefhppfj.cloud.dropstack.run"
+  "aliveEndpoint": "",
+  "name": "xpuajnpv",
+  "serviceUrl": "xpuajnpv.cloud.dropstack.run"
 }

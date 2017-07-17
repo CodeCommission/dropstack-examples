@@ -1,6 +1,6 @@
 # Mono-Solution (C# + Nancy) example
 
-[Mono-Solution C# + Nancy Live Example](https://xyalhlshr.cloud.dropstack.run/helloworld)
+[Mono-Solution C# + Nancy Live Example](https://xpuajnpv.cloud.dropstack.run/helloworld)
 
 ## Deploy via [https://dropstack.run](https://dropstack.run)
 
@@ -48,14 +48,14 @@ After deployment with dropstack check the `.dropstack.json` file:
   "instances": 1,
   "type": "mono",
   "name": "xyalhlshr",
-  "serviceUrl": "xyalhlshr.cloud.dropstack.run"
+  "serviceUrl": "xpuajnpv.cloud.dropstack.run"
 }
 ```
 
 Use the `serviceUrl` to call the service, e.g.
 
 ```bash
-curl -s http://xyalhlshr.cloud.dropstack.run/hellome?name=Peter
+curl -s http://xpuajnpv.cloud.dropstack.run/hellome?name=Peter
 ```
 
 To watch what's happening to the server run `dropstack logs xyalhlshr`. You'll see a live stream of whatever is output to the console by the service.
