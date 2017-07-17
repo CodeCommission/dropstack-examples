@@ -1,10 +1,10 @@
 # Mono-Solution (C# + Nancy) example
 
-[Mono-Solution C# + Nancy Live Example](https://qkvwwiko.cloud.dropstack.run/add)
+[Mono-Solution C# + Nancy Live Example](https://xyalhlshr.cloud.dropstack.run/helloworld)
 
 ## Deploy via [https://dropstack.run](https://dropstack.run)
 
-```
+```bash
 dropstack login // only once per local user
 
 dropstack deploy // for each new version of the service
@@ -37,11 +37,12 @@ curl -s http://localhost:8080/provokeexit
 ```
 
 ## Remote execution
+
 dropstack will execute the build and start (`start.sh`) scripts.
 
 After deployment with dropstack check the `.dropstack.json` file:
 
-```
+```json
 {
   "variables": [],
   "instances": 1,
@@ -53,7 +54,7 @@ After deployment with dropstack check the `.dropstack.json` file:
 
 Use the `serviceUrl` to call the service, e.g.
 
-```
+```bash
 curl -s http://xyalhlshr.cloud.dropstack.run/hellome?name=Peter
 ```
 
