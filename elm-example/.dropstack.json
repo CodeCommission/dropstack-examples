@@ -1,0 +1,9 @@
+{
+  "variables": "",
+  "instances": 1,
+  "alias": "elm-example.cloud.dropstack.run",
+  "type": "docker",
+  "excludes": [],
+  "name": "ehijzwoz",
+  "serviceUrl": "ehijzwoz.cloud.dropstack.run"
+}
