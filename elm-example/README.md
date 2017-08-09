@@ -1,4 +1,4 @@
-# Serve a simple Elm app (using node.js)
+# Elm SPA example
 
 [![Deploy to dropstack](https://deploy.cloud.dropstack.run/button.svg)](https://deploy.cloud.dropstack.run?repo=https://github.com/CodeCommission/dropstack-examples/tree/master/elm-example)
 
