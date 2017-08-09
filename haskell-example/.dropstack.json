@@ -1,0 +1,9 @@
+{
+  "variables": "",
+  "instances": 1,
+  "alias": "haskell-example.cloud.dropstack.run",
+  "type": "docker",
+  "excludes": [],
+  "name": "mewuushc",
+  "serviceUrl": "mewuushc.cloud.dropstack.run"
+}
