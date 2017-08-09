@@ -33,3 +33,5 @@ dropstack deploy
 * [NPM + PouchDB-Server](https://oqxuukwd.cloud.dropstack.run/_utils)
 * [NPM + Reunify](https://byctvaxf.cloud.dropstack.run)
 * [NPM + GraphQL-Pouch](https://isgcwogq.cloud.dropstack.run/graphql)
+* [Haskell + Scotty Live Example](https://haskell-example.cloud.dropstack.run)
+
