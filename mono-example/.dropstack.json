@@ -5,8 +5,8 @@
   "name": "wsalhlsh",
   "serviceUrl": "wsalhlsh.cloud.dropstack.run",
   "excludes": [
-    "bin/*",
-    "obj/*",
-    "packages/*"
+    "**/bin/*",
+    "**/obj/*",
+    "**/packages/*"
   ]
 }
