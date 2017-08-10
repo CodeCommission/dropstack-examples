@@ -23,12 +23,12 @@ foldp ThumbUp n = { state: n + 1, effects: [] }
 -- | Return markup from the state
 view :: State -> HTML Event
 view count =
-  div do
-    div $
+  div ! className "container" $ do
+    div ! className "row" $
       h1 $ text "PureScript on Dropstack!"
-    div $ 
+    div ! className "row" $ 
       button ! className "btn btn-primary" #! onClick (const ThumbUp) $ viewThumbUp
-    div $ 
+    div ! className "row" $ 
       traverse_ id (replicate count viewThumbUp)
 
 viewThumbUp :: HTML Event
