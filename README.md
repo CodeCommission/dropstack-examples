@@ -9,7 +9,7 @@ npm i -g dropstack-cli
 ## Sign in
 
 ```bash
-dropstack login https://my-cloud.domain.com
+dropstack login
 ```
 
 ## Deploy
@@ -33,5 +33,9 @@ dropstack deploy
 * [NPM + PouchDB-Server](https://oqxuukwd.cloud.dropstack.run/_utils)
 * [NPM + Reunify](https://byctvaxf.cloud.dropstack.run)
 * [NPM + GraphQL-Pouch](https://isgcwogq.cloud.dropstack.run/graphql)
-* [Haskell + Scotty Live Example](https://haskell-example.cloud.dropstack.run)
+* [Haskell + Scotty](https://haskell-example.cloud.dropstack.run)
+* [Elm SPA](https://elm-example.cloud.dropstack.run)
 
+## External examples
+
+* [TBD]()
