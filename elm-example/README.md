@@ -8,8 +8,14 @@
 
 ## SPA configuration
 
-> Add configurations via environment vars and include `config.js` into your app.
+To "inject" custom configurations via environment variables enter variables into your `dropstack deploy` and include the generated `config.js` into your app or `index.html`. https://elm-example.cloud.dropstack.run/config.js
 
 ```bash
-dropstack deploy -v API_KEY=yourkey -v API_URL=http://myapi.example.com -v CONFIG_VARS=API_URL,API_KEY
+dropstack deploy -v API_KEY=yourkey -v API_URL=http://myapi.example.com -v CONFIG_VARS="API_URL API_KEY"
+```
+
+For local development the `config.js` has the folling format.
+
+```javascript
+window.__env = {"API_KEY":"yourkey","API_URL":"http://myapi.example.com"}
 ```

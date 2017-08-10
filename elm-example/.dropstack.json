@@ -1,5 +1,5 @@
 {
-  "variables": "",
+  "variables": "API_KEY=yourkey,API_URL=http://myapi.example.com,CONFIG_VARS=API_URL API_KEY",
   "instances": 1,
   "alias": "elm-example.cloud.dropstack.run",
   "type": "docker",
