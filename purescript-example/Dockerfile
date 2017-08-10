@@ -9,12 +9,11 @@ RUN apt-get update && \
     curl -sL https://deb.nodesource.com/setup_8.x | bash - && \
     apt-get update && \
     apt-get install -y nodejs && \
-    yarn global add purescript
-    yarn global add pulp
+    yarn global add purescript \
+    yarn global add pulp \
     yarn global add bower
-    npm install react react-dom
-    bower install
-    pulp browserify --to purs.js
 ADD . /app
 WORKDIR /app
-RUN elm make --yes Main.elm --output elm.js
+RUN npm install react react-dom
+RUN bower --allow-root install
+RUN pulp browserify --to purs.js
