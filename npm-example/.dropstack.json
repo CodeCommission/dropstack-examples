@@ -1,8 +1,10 @@
 {
-  "variables": [],
+  "variables": "SERVICE_PORT=80",
   "instances": 1,
   "alias": "npm-example.cloud.dropstack.run",
   "type": "npm",
+  "excludes": [],
+  "stateful": false,
   "name": "urcbyrfw",
   "serviceUrl": "urcbyrfw.cloud.dropstack.run"
 }
