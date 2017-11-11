@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "name": "todo-app-dropbox-sync",
+  "version": "1.3.0",
+  "description": "Dropbox sync on granceful shutdown.",
+  "main": "server.js",
+  "scripts": {
+    "dev": "env $(cat .env | xargs) node server.js",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "go@codecommission.com",
+  "license": "MIT",
+  "dependencies": {
+    "dropbox": "^2.5.12",
+    "express": "^4.16.2",
+    "node-uuid": "^1.4.8"
+  }
+}
