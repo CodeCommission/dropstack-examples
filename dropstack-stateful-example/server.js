@@ -17,4 +17,4 @@ setInterval(() => {
     path.resolve(`/mnt/file-${count}-${new Date().toISOString()}.json`),
     JSON.stringify({ id: count })
   );
-}, 5000);
+}, 60000);
