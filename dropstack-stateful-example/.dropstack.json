@@ -1,0 +1,9 @@
+{
+  "variables": "",
+  "instances": 1,
+  "type": "node8",
+  "excludes": [],
+  "stateful": true,
+  "name": "dcipnlrc",
+  "serviceUrl": "dcipnlrc.cloud.dropstack.run"
+}
