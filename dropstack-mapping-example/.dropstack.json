@@ -1,0 +1,15 @@
+{
+  "variables": "",
+  "instances": 1,
+  "alias": "dropstack-mapping-example.cloud.dropstack.run",
+  "type": "node8",
+  "excludes": [],
+  "stateful": false,
+  "name": "utvuttxu",
+  "serviceUrl": "utvuttxu.cloud.dropstack.run",
+  "mappings": {
+    "/files": "dcipnlrc.cloud.dropstack.run/files",
+    "/docs/info": "oqxuukwd.cloud.dropstack.run/test",
+    "/docs": "oqxuukwd.cloud.dropstack.run/test/_all_docs?include_docs=true"
+  }
+}

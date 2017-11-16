@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "name": "dropstack-mapping-example",
+  "version": "1.1.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=production linklet serve",
+    "dev": "NODE_ENV=development nodemon --exec linklet serve -p 3000",
+    "test": "mocha --require async-to-gen/register index.test.js",
+    "deploy": "dropstack deploy"
+  },
+  "dependencies": {
+    "linklet": "latest"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^3.4.2",
+    "nodemon": "^1.11.0",
+    "node-fetch": "^1.7.0"
+  }
+}
