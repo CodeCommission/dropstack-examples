@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "name": "linklet-graceful-shutdown-example",
+  "version": "1.2.1",
+  "main": "server.js",
+  "scripts": {
+    "long": "node server.js"
+  },
+  "dependencies": {
+    "linklet": "latest"
+  },
+  "license": "MIT",
+  "devDependencies": {}
+}

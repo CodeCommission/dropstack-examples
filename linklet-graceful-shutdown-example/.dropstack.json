@@ -1,0 +1,10 @@
+{
+  "variables": "",
+  "instances": 1,
+  "alias": "linklet-graceful-shutdown-example.cloud.dropstack.run",
+  "type": "node8",
+  "excludes": [],
+  "stateful": false,
+  "name": "bhhdagba",
+  "serviceUrl": "bhhdagba.cloud.dropstack.run"
+}
