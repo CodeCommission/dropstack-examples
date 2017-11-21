@@ -1,0 +1,13 @@
+{
+  "variables": "PYTHONUNBUFFERED=1,PORT=80,PYTHONUNBUFFERED=1,PORT=80",
+  "instances": 1,
+  "alias": "python3-django-sqlite.cloud.dropstack.run",
+  "type": "docker",
+  "excludes": [
+    "db.sqlite3",
+    "__pycache__"
+  ],
+  "stateful": true,
+  "name": "lstjslib",
+  "serviceUrl": "lstjslib.cloud.dropstack.run"
+}
