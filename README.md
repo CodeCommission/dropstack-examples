@@ -29,6 +29,7 @@ dropstack deploy
 * [DotNet Core F# + Suave](https://whwgikhc.cloud.dropstack.run)
 * [Mono-Solution C# + NancyFx](https://xpuajnpv.cloud.dropstack.run/helloworld)
 * [Python2 + Flask](https://wjdqtkuz.cloud.dropstack.run)
+* [Python3 + Django + SQLite](https://python3-django-sqlite.cloud.dropstack.run)
 * [Go](https://bwrbytxq.cloud.dropstack.run)
 * [NPM + PouchDB-Server](https://oqxuukwd.cloud.dropstack.run/_utils)
 * [NPM + Reunify](https://byctvaxf.cloud.dropstack.run)
