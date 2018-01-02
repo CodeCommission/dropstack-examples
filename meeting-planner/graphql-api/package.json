@@ -1,0 +1,27 @@
+{
+  "private": true,
+  "version": "0.0.0",
+  "name": "meeting-planner-graphql-api",
+  "description": "Meeting-Planner GraphQL-API",
+  "engines": {
+    "node": "^8"
+  },
+  "dependencies": {
+    "subkit": "latest"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.6.0",
+    "mocha": "^4.0.1",
+    "nodemon": "^1.12.1"
+  },
+  "babel": {
+    "presets": ["env"]
+  },
+  "scripts": {
+    "dev":
+      "nodemon --ext  gql,sdl,js --exec subkit serve --port 8080 --graphiql --secret admin --analysis 1000 --extentions",
+    "start":
+      "NODE_ENV=production subkit serve --port 80 --secret admin --silent --analysis 1000",
+    "test": "mocha --require babel-polyfill --require babel-register"
+  }
+}

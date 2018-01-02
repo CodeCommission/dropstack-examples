@@ -1,0 +1,37 @@
+type Group {
+  id: ID
+  name: String
+  organisators: [Member] @execute(cmd: "node ./resolvers/organisatorsOfGroup.js ${parent.id}")
+  members: [Member] @execute(cmd: "node ./resolvers/members-by-group-id.js ${parent.id}")
+}
+
+type Member {
+  id: ID
+  name: String
+  isOrganisator: Boolean
+  groups: [Group] @execute(cmd: "node ./resolvers/groups-by-member-id.js ${parent.id}")
+}
+
+type Account {
+  id: ID
+}
+
+type Viewer {
+  id: String @constant(value: "${context.user.sub}")
+  member: Member @execute(cmd: "node ./resolvers/member-by-id.js ${context.user.sub}")
+}
+
+type Query {
+  viewer: Viewer @constant(value: {})
+  accounts: [Account] @execute(cmd: "node ./resolvers/accounts.js")
+  groups: [Group] @execute(cmd: "node ./resolvers/groups.js")
+}
+
+input GroupInput {
+  name: String!
+  organisators: [ID!]!
+}
+
+type Mutation {
+  openGroup(input: GroupInput!): Group
+}

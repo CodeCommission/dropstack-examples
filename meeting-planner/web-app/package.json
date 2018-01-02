@@ -1,0 +1,20 @@
+{
+  "private": true,
+  "version": "0.0.0",
+  "name": "meeting-planner-web-app",
+  "description": "Meeting-Planner Web-App.",
+  "engines": {
+    "node": "^8"
+  },
+  "dependencies": {
+    "reunify": "latest"
+  },
+  "scripts": {
+    "export": "NODE_ENV=production reunify export",
+    "export:dev": "NODE_ENV=production reunify export -d",
+    "export:package": "NODE_ENV=production reunify export -p",
+    "export:package:dev": "NODE_ENV=production reunify export -p -d",
+    "dev": "PORT=8080 NODE_ENV=development reunify serve",
+    "start": "PORT=80 NODE_ENV=production reunify serve --silent"
+  }
+}

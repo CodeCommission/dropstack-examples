@@ -1,0 +1,31 @@
+{
+  "mike@mikebild.com": {
+    "name": "Mike Bild",
+    "memberOf": {
+      "HappyCat": { "isOrganisator": true },
+      "Sailing": { "isOrganisator": false }
+    }
+  },
+  "john@example.com": {
+    "name": "John Doe",
+    "memberOf": {
+      "HappyCat": { "isOrganisator": true },
+      "Sailing": { "isOrganisator": true }
+    }
+  },
+  "max@example.com": {
+    "name": "Max Muster",
+    "memberOf": {
+      "HappyCat": { "isOrganisator": false },
+      "GraphQL": { "isOrganisator": true }
+    }
+  },
+  "go@dropstack.run": {
+    "name": "DropStack Admin",
+    "memberOf": {
+      "Sailing": { "isOrganisator": false },
+      "HappyCat": { "isOrganisator": true },
+      "GraphQL": { "isOrganisator": false }
+    }
+  }
+}
