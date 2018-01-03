@@ -23,15 +23,17 @@ type Viewer {
 
 type Query {
   viewer: Viewer @constant(value: {})
-  accounts: [Account] @execute(cmd: "node ./resolvers/accounts.js")
-  groups: [Group] @execute(cmd: "node ./resolvers/groups.js")
+  accounts: [Account] @execute(cmd: "node ./resolvers/all-accounts.js")
+  groups: [Group] @execute(cmd: "node ./resolvers/all-groups.js")
 }
 
 input GroupInput {
-  name: String!
-  organisators: [ID!]!
+  groupId: ID!
+  groupName: String!
+  organisatorIds: [ID!]!
+  memberIds: [ID!]!
 }
 
 type Mutation {
-  openGroup(input: GroupInput!): Group
+  openGroup(input: GroupInput!): Group @execute(cmd: "node ./resolvers/open-group.js '${JSON.stringify(args.input)}' ${context.user.sub}")
 }

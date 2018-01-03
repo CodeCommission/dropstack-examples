@@ -2,30 +2,54 @@
   "mike@mikebild.com": {
     "name": "Mike Bild",
     "memberOf": {
-      "HappyCat": { "isOrganisator": true },
-      "Sailing": { "isOrganisator": false }
+      "HappyCat": {
+        "isOrganisator": true
+      },
+      "Sailing": {
+        "isOrganisator": false
+      },
+      "demo3": {
+        "isOrganisator": false
+      }
     }
   },
   "john@example.com": {
     "name": "John Doe",
     "memberOf": {
-      "HappyCat": { "isOrganisator": true },
-      "Sailing": { "isOrganisator": true }
+      "HappyCat": {
+        "isOrganisator": true
+      },
+      "Sailing": {
+        "isOrganisator": true
+      }
     }
   },
   "max@example.com": {
     "name": "Max Muster",
     "memberOf": {
-      "HappyCat": { "isOrganisator": false },
-      "GraphQL": { "isOrganisator": true }
+      "HappyCat": {
+        "isOrganisator": false
+      },
+      "GraphQL": {
+        "isOrganisator": true
+      }
     }
   },
   "go@dropstack.run": {
     "name": "DropStack Admin",
     "memberOf": {
-      "Sailing": { "isOrganisator": false },
-      "HappyCat": { "isOrganisator": true },
-      "GraphQL": { "isOrganisator": false }
+      "Sailing": {
+        "isOrganisator": false
+      },
+      "HappyCat": {
+        "isOrganisator": true
+      },
+      "GraphQL": {
+        "isOrganisator": false
+      },
+      "demo3": {
+        "isOrganisator": true
+      }
     }
   }
 }
